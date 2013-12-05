@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+#loginWrapper{
+	background:#aaa;
+	height:100%;
+	width:100%;
+}
+
+#header{
+	background: #a00;
+}
+
+#loginBox{
+	margin:100px auto;
+	width:330px;
+	font-size:15px;
+	background: #eee;
+	padding:20px;
+	text-align: center;
+}
+
+#loginBox h1{
+	font-size:20px;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+#loginBox span{
+	min-width:45px;
+	display: inline-block;
+}
+
+#loginBox input{
+	height:20px;
+	font-size:20px;
+	padding:10px;
+	margin-bottom:10px;
+	margin-right:45px;
+	border:1px solid #aaa;
+}
+
+#loginBox #submitButton{
+	height:40px;
+	width:200px;
+	font-size:15px;
+	margin:10px auto;
+}
+
+#header li{
+    float:left;
+    /*width:60px;*/
+    color:white;
+    margin-right:5px;
+    padding:5px 10px;
+    text-align: center;
+    font-size:11px;
+}
+
+#adminMenu ul#category li:hover{
+	background: #eee;
+}
+
+#adminMenu ul#category li a:after{
+	content:">";
+	float: right;
+}
+
+#adminMenu ul#category li:first-child{
+	background:#555;
+	color:white;
+}
+#adminMenu ul#category li:first-child:after{
+	content:"";
+}
+
+#rightColumn ul#mainTitle{
+	overflow: hidden;
+	border-bottom:2px solid #a00;
+	margin-bottom:20px;
+}
+
+#rightColumn ul#mainTitle li:first-child{
+		color:#888;
+}
+
+#rightColumn ul#mainTitle li{
+	float:left;
+	padding:0px;
+	margin-right:10px;
+	font-size:18px;
+}
+
+#rightColumn ul#mainTitle li:after{
+	content:" ＞";
+}
+
+#rightColumn ul#mainTitle li:last-child:after{
+	content:"";
+}
+
+
+
+/* フォームにtableを使う場合のCSS */
+
+table,tr,td{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+table#formTable td.formTableTitle{
+	background: #888;
+	color:white;
+}
+
+table#formTable td{
+	margin:0;
+	padding:10px;
+	border-bottom:1px solid #ddd;
+	font-size:13px;
+}
+
+table#formTable{
+	border-top:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+
+#formTable .textBox{
+	min-width:200px;
+	padding:5px;
+}
+
+#formTable{
+
+	margin:0 auto;
+}
+
+.formTableSubmit{
+	text-align: center;
+}
+
+.formTableSubmit input{
+	padding:0px;
+	border:0px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	background: #223a66;
+	color:white;
+	width:200px;
+	margin:20px 0;
+}
+
+.formTableSubmit input:hover{
+	background:#334a77;
+}
+
+#leftColumn a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+
+#rightColumn{
+	font-size:13px;
+}
+
+/* デザイン設定 */
+
+.designBox{
+	float:left;
+	margin:0 10px 30px 0;
+	padding:0;
+	width:200px;
+	text-align: center;
+}
+
+.designBox input{
+	border:0px;
+	font-size:15px;
+	text-align: center;
+}
+
+.designBox h2{
+	text-align: left;
+}
+.designBox img{
+	width:16px;
+	margin-left:5px;
+}
+
+#colorpicker1,#colorpicker2,#colorpicker3,#colorpicker4,#colorpicker5,#colorpicker6{
+	margin-left:0px;
+}
+
+#designBoxOuter{
+	margin-left:80px;
+	overflow: hidden;
+	margin-bottom:40px;
+}
+
+#designBoxOuter:after{
+	clear: both;
+}
+
