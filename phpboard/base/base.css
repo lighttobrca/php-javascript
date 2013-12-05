@@ -1,0 +1,72 @@
+﻿*{
+ margin:0px;
+ padding:0px;
+}
+h1{
+text-align:center;
+color:white;
+}
+h2{
+color:white;
+}
+.wrap{
+	width:1000px;
+	height:1000px;
+	margin:0 auto;
+}
+.titleleft{
+ width:277px;
+ height:200px;
+background-image:url(../image/flower1.jpg);
+background-repeat:repeat;
+ float:left;
+}
+.titleright{
+ width:277px;
+ height:200px;
+ background-image:url(../image/flower2.jpg);
+ background-repeat:repeat;
+ float:left;
+}
+.titleformwrap{
+ width:440px;
+ height:200px;
+ background-color:#335577;
+ float:left;
+}
+.title
+{
+	margin:0 auto;
+	height:100px;
+	background-color:#gg66ff;
+}
+.form
+{
+	margin:0 auto;
+	height:100px;
+	color:white;
+	background-color:#3322ff;
+}
+.contentsleft{
+	width:277px;
+	height:800px;
+	background-image:url(../image/flower3.gif);
+	background-repeat:repeat;
+	float:left;
+}
+.contents{
+	width:440px;
+	background-color:#0000ff;
+	height:800px;
+	float:left;
+}
+.contentsright{
+	width:277px;
+	background-image:url(../image/flower4.gif);
+	background-repeat:repeat;
+	height:800px;
+	float:left;
+}
+.contentswrap{
+	width:1000px;
+}
