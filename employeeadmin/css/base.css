@@ -1,0 +1,49 @@
+table{
+	font-size:25px;
+}
+table th{
+	text-align:left;
+	background:linear-gradient(to bottom, rgba(34,85,136,0.7), rgba(34,85,136,0.9));
+}
+table th:first-child{
+	border-radius: 5px 0 0 0;
+}
+table th:last-child{
+	border-radius: 5px 0 0 0;
+}
+a{
+	font-size:20px;
+}
+
+table td{
+	background-color:#99ccff;	
+}
+table caption{
+	text-align:left;
+
+}
+table .id{
+	width:100px;
+}
+table .name{
+	width:300px;
+}
+table .post{
+	width:100px;
+}
+table .offtitle{
+	width:300px;
+}
+.paging{
+	text-decoration: underline;
+	background:linear-gradient(to bottom, #ddddff, #006699);
+	color:#000000;
+	padding:5px;
+	font-weight:bold;
+	text-align:center;
+}
+table td a{
+ 	background-color:linear-gradient(to bottom, rgba(34,85,136,0.7), rgba(34,85,136,0.9));
+ 	color:#0000ff;
+ 	text-decoration:underline;
+}
