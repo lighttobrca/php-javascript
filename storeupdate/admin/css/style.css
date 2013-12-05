@@ -1,0 +1,467 @@
+@charset "utf-8";
+
+html,body,ul,li,p,h1,h2,h3,h4,h5,img{
+    margin:0;
+    padding:0;
+    font-size:12px;
+    line-height: 1.8em;
+    font-family: arial;
+}
+
+html,body{
+    height:100%;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+h2{
+    padding:5px 0;
+    margin:20px 0 15px 0;
+    border-bottom:1px solid #aaa;
+}
+
+a{
+    color:black;
+    /*text-decoration: none;*/
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#headerInner,#footerInner,#gNaviInner,#main{
+    width:1000px;
+    margin:0 auto;
+    font-size:11px;
+    line-height:1.4em;
+}
+
+/*　ヘッダー　*/
+#header{
+    background:#888;
+    overflow:hidden;
+    height:50px;
+    border-top:3px solid white;
+}
+
+
+#header a{
+    color:white;
+}
+
+
+#headerInner{
+    position:relative;
+}
+
+
+#header h1{
+    position:absolute;
+    left:5px;
+    top:15px;
+}
+
+#header li{
+    float:left;
+    /*width:60px;*/
+    color:white;
+    margin-right:5px;
+    padding:5px 10px;
+    text-align: center;
+    font-size:11px;
+}
+
+#header li:first-child{
+    width:200px;
+    text-align: right;
+}
+
+#headerInner li.userBt{
+     background: #555; 
+     width:60px;  
+}
+
+#headerInner li.userBt:hover{
+    background: #aaa;
+}
+
+#header ul{
+    float:right;
+    padding:10px 20px 0 0;
+}
+
+#cartBox{
+    background:url(../img/cartBox.png) no-repeat;
+    width:330px;
+    height:44px;
+    float:right;
+    position: relative;
+}
+
+#cartBox img{
+    float:right;
+    margin-right:15px;
+}
+
+#cartIn1{
+    position: absolute;
+    top:12px;
+    left:40px;
+    width:150px;
+    text-align: right;
+}
+
+#cartIn2{
+    position: absolute;
+    width:40px;
+    top:12px;
+    right:95px;
+    text-align: right;
+}
+
+
+/*グローバルナビ*/
+#gNavi{
+    background:#eee;/*#aaa888;*/
+    overflow:hidden;
+    padding:5px 0;
+}
+
+#gNavi a:hover{
+    text-decoration: underline;
+}
+
+
+#gNaviInner li
+{
+    width:120px;
+    float: left;
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+}
+
+#gNaviInner input{
+    border:0px solid #aaa;
+    height:20px;
+    margin:2px;
+    padding:2px 5px;
+    width:200px;
+}
+
+#gNaviInner #searchSubmit{
+    background:gray;
+    color:white;
+    text-align: center; 
+    width:80px;
+    height:24px;
+    margin:0;
+    padding:0;
+}
+
+#searchBox{
+    float:right;
+    width:300px;
+}
+
+/* メイン */
+
+#main{
+    overflow:hidden;
+    padding:20px 0;
+    min-height:80%;
+}
+
+/* 左側　*/
+#leftColumn{
+    width:190px;
+    float:left;
+}
+
+#leftColumn li{
+    padding:0 10px;
+    height:35px;
+    line-height: 35px;
+    border-bottom:1px solid #ccc;
+}
+
+#leftColumn li:first-child{
+    border-top:1px solid #ccc;
+}
+
+#leftColumn li:hover{
+    background: #eee;
+}
+
+#leftColumn ul{
+    margin-bottom: 30px;
+}
+
+#leftColumn ul#category{
+    background:#f5f5f5;    
+}
+
+#leftColumn ul#category li{
+    border-top:1px solid #fff;
+    background:#f5f5f5;  
+}
+
+
+
+#leftColumn ul#ranking li:first-child{
+    background: #8e8e8e;
+    color:white;
+}
+
+/* 右側 */
+#rightColumn{
+    width:770px;
+    float:right;
+}
+
+#mainVisual{
+    overflow: hidden;
+    width:770px;
+    height:240px;
+}
+
+#sliderBox{
+    width:600px;
+    height:240px;
+    float:left;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#sliderBoxInner img{
+    float:left;
+}
+
+#sideButton{
+    width:165px;
+    height:240px;
+    position: relative;
+    float: right;
+}
+
+#sideButton ul{
+    position: relative;
+    z-index:10;
+}
+
+#sideButton li{
+    width: 165px;
+    height:59px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom:1px solid #eee;
+    position: relative;
+}
+
+#sideButton li:before{
+  content:"";
+  background:url(../img/sideMenuIcon.png);
+  width:18px;
+  height:18px;
+  position: absolute;
+  top:21px;
+  left:15px;
+}
+
+#sliderBoxInner{
+    width:2400px;
+    position: absolute;
+    /* アニメーション設定 */
+}
+
+/* 右側アニメーション設定 */
+@-webkit-keyframes mainAnim{
+    0%{
+        left:0px;
+    }
+    20%{
+        left:0px;
+    }
+
+    25%{
+        left:0px;
+    }
+    45%{
+        left:0px;
+    }
+
+    50%{
+        left:0px;
+    }
+    70%{
+        left:0px;
+    }
+
+    75%{
+        left:0px;
+    }
+    95%{
+        left:0px;
+    }
+    100%{
+        left:0px;
+    }
+}
+@-moz-keyframes mainAnim{
+    
+}
+
+
+#sideCover{
+    position: absolute;
+    z-index:8;
+    width: 165px;
+    height:60px;
+    background:#d8ecf8;
+    /* アニメーション設定 */
+}
+
+/* 右側 色ボックス　アニメーション設定 */
+@-webkit-keyframes coverAnim{
+
+}
+
+@-moz-keyframes coverAnim{
+
+}
+
+/* new Item */
+
+#newItemBox{
+    overflow: hidden;
+    width:770px;
+}
+
+#newItemBoxInner{
+    padding:0;
+    margin:0;
+    width:850px;
+    overflow: hidden;
+}
+
+.newItemBox{
+    width:140px;
+    height:180px;
+    float:left;
+    background: #eee;
+    margin-right:15px;
+    border:1px solid #eee;
+}
+
+.newItemBox img{
+    width:140px;
+}
+
+.newItemInfo{
+    padding:5px 0;
+    text-align: center;
+}
+
+
+
+/* Recommend Item */
+#recommendBox{
+    overflow:hidden; 
+    width:770px;
+}
+
+.recommendImage{
+    width:100px;
+    border:1px solid #eee;
+}
+
+#recommendBoxInner{
+    width:790px;       
+}
+
+.recommendItemBox{
+    float:left;
+    width:230px;
+    padding:9px;
+    border:1px solid #eee;
+    margin-right:10px;
+    position: relative;
+}
+
+.recommendItemBox img,.userInfo img{
+    float:left;
+    margin-right:12px;
+}
+
+.userComment{
+    float:left;
+    width:105px;
+    height:60px;
+    text-align: center;
+    background:#eee;
+    padding:5px;
+    overflow: hidden;
+}
+
+.userComment2{
+    float: left;
+    width:0px;
+    height:0px;
+    border:4px solid rgba(0,0,0,0);
+    border-top:8px solid #eee;
+    margin-left:7px;
+}
+
+.userInfo{
+    position: absolute;
+    line-height: 20px;
+    bottom:10px;
+    left:123px;
+}
+
+.userInfo img{
+    width:20px;
+    height:20px;
+    border:1px solid #eee;
+    margin-right:5px;
+}
+
+
+
+
+/* checkBox */
+#checkBox{
+    background:#eee;
+    padding:15px 5px 15px 15px;
+    overflow:hidden;
+}
+
+#checkBox img{
+    width:100px;
+    margin-right:7px;
+    float:left;
+}
+
+
+/* フッター  */
+#footer{
+    width:100%;
+    padding:20px 0;
+    background:#eee;    
+}
+
+#footerInner{
+    width:1000px;
+    overflow: hidden;
+}
+
+.footerBox{
+    float:left;
+    width:225px;
+    margin-right:25px;
+    line-height: 1.8em;
+    color:#555;
+}

@@ -1,0 +1,23 @@
+商品名：product_name
+カテゴリ：product_category
+価格：product_price
+会社：product_company
+詳細説明:product_info
+
+
+id,category,name,price,info,company
+
+name,category,name,price,company,info
+INSERT into product(name,category,name,price,company,info) values('テーブルいいいい','テーブル','テーブルいいいい','3000','table,'aaaa')
+
+INSERT into product(category,name,price,company,info) values('テーブル','tea',3000,'table,'zaaab');
+
+
+INSERT INTO `product` (`id`, `category`, `name`, `price`, `info`, `company`) VALUES ('5', 'table', 'tea', '4000', 'ggab', 'ggab');
+
+product_id
+product_name
+product_category
+product_price
+product_company
+product_info
